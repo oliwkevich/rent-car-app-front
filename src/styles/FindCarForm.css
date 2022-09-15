@@ -1,0 +1,84 @@
+.find__cars-left {
+  background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9)),
+    url("https://www.autonavigator.hu/wp-content/uploads/2015/01/108202_orig.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 35px;
+}
+
+.find__cars-left h2 {
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+
+.form__group {
+  width: 30%;
+  margin-bottom: 0;
+}
+
+.form__group input::placeholder {
+  color: #7c8a97;
+}
+
+.form__group input {
+  padding: 8px 12px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #7c8a972a;
+}
+
+.form {
+  background: #fff;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.select__group {
+  width: 30%;
+}
+
+.select__group select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #7c8a972a;
+  outline: none;
+  color: #7c8a97;
+}
+
+.hero__slider-selection {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 200px;
+}
+
+.hero__form {
+  position: absolute;
+  bottom: -150px;
+  z-index: 11;
+  width: 100%;
+}
+
+.form__row {
+  background: #fff;
+  box-sizing: 5px 5px -5px;
+  -webkit-box-shadow: -2px 3px 9px 0px #424242;
+  box-shadow: -2px 3px 9px 0px #424242;
+}
+
+.journey__time::before {
+  content: "Journey Time";
+  margin-right: 0.8rem;
+  color: #7c8a97;
+}
+
+.find__car-btn {
+  background: #000d6b;
+  color: #fff;
+  padding: 8px 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
