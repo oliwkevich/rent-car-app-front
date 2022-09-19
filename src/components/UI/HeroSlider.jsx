@@ -6,6 +6,8 @@ import { Helmet } from "../Helmet/Helmet";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
+//TODO: https://youtu.be/WjZojUBTZts?t=9340
+
 export const HeroSlider = () => {
   const settings = {
     fade: true,

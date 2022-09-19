@@ -5,11 +5,16 @@ import { HeroSlider } from "../components/UI/HeroSlider";
 
 import "../styles/FindCarForm.css";
 
+//TODO: https://youtu.be/WjZojUBTZts?t=7648
+
 import { Container, Row, Col } from "reactstrap";
 import { AboutSection } from "../components/UI/AboutSection";
 import { ServiceList } from "../components/UI/ServiceList";
 import { carData } from "../assets/data/carData";
 import { CartItem } from "../components/UI/CartItem";
+import { BecomeDriverSection } from "../components/UI/BecomeDriverSection";
+import { Testimonial } from "../components/UI/Testimonial";
+import { BlogList } from "../components/UI/BlogList";
 
 export const Home = () => {
   return (
@@ -58,6 +63,32 @@ export const Home = () => {
             {carData.map((item) => (
               <CartItem item={item} key={item.id} />
             ))}
+          </Row>
+        </Container>
+      </section>
+
+      <BecomeDriverSection />
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-2 mt-4 text-center">
+              <h6 className="section__subtitle">Our clients says</h6>
+              <h2 className="section__title">Testimonials</h2>
+            </Col>
+            <Testimonial />
+          </Row>
+        </Container>
+      </section>
+
+      <section className="mt-4">
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-2 mt-4 text-center">
+              <h6 className="section__subtitle">Explore our blogs</h6>
+              <h2 className="section__title">Latest Blogs</h2>
+            </Col>
+            <BlogList />
           </Row>
         </Container>
       </section>
